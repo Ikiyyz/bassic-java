@@ -18,19 +18,23 @@ function sentencesManipulation(sentence) {
 }
 
 const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
+  // membuat interface readline
+
+  input: process.stdin, // membaca input // objek konfigurasi
+  output: process.stdout, // menampilkan output
   prompt: "tulis kalimatmu disini > ",
 });
 
-rl.prompt();
+rl.prompt(); // menampilkan teks prompt di terminal
 
 rl.on("line", (line) => {
-  const hasil = sentencesManipulation(line);
+  // menangkap input dari readline
+  const hasil = sentencesManipulation(line); // memproses input pengguna
   console.log(`hasil konversi: ${hasil}`);
-  rl.prompt();
+  rl.prompt(); // menampilkan prompt lagi
 });
 
 rl.on("close", () => {
   console.log("Good bye!");
 });
+
