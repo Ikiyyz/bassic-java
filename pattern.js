@@ -4,8 +4,8 @@ function pola(str) {
 
   for (let i = 0; i <= 9; i++) {
     for (let j = 0; j <= 9; j++) {
-      const newNum1 = num1.replace("#", i); // "42#3"
-      const newRight = right.replace("#", j); // "80#204"
+      const newNum1 = num1.replace("#", i); // "4213"
+      const newRight = right.replace("#", j); // "800204"
 
       //console.log(newNum1, newRight);
 
