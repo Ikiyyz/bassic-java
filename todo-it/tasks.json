@@ -1,8 +1,32 @@
 [
   {
-    "task": "Belajar Javascript",
-    "completed": true,
-    "createdAt": "2025-05-18T04:38:38.461Z",
+    "task": "Belajar gitar",
+    "completed": false,
+    "createdAt": "2025-05-20T07:09:00.905Z",
+    "tags": [
+      "Belajar",
+      "gitar"
+    ]
+  },
+  {
+    "task": "Belajar mancing",
+    "completed": false,
+    "createdAt": "2025-05-20T07:09:05.334Z",
+    "tags": [
+      "Belajar",
+      "mancing"
+    ]
+  },
+  {
+    "task": "Jadwal futsal",
+    "completed": false,
+    "createdAt": "2025-05-20T07:09:16.712Z",
+    "tags": []
+  },
+  {
+    "task": "Waktu membaca",
+    "completed": false,
+    "createdAt": "2025-05-20T07:09:41.358Z",
     "tags": []
   }
 ]
