@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="/style.css" />
     <title>{{title}}</title>
   </head>
+
   <body>
     <form action="{{action}}" method="POST" class="form-add">
       <input
@@ -45,8 +46,8 @@
 
       <select name="married" id="married" required>
         <option value="" disabled selected>have you married ?</option>
-        <option value="true" {{selectedTrue}}>True</option>
-        <option value="false" {{selectedFalse}}>False</option>
+        <option value="true" {{selectedTrue}}>true</option>
+        <option value="false" {{selectedFalse}}>false</option>
       </select>
 
       <button type="submit" class="btn-save">Save</button>

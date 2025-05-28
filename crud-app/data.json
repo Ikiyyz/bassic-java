@@ -2,16 +2,16 @@
   {
     "name": "mike",
     "height": 175,
-    "weight": 80,
+    "weight": 80.5,
     "birthdate": "1988-11-15",
-    "married": true
+    "married": false
   },
   {
     "name": "susan",
     "height": 165,
-    "weight": 65,
-    "birthdate": "1990-07-25",
-    "married": false
+    "weight": 65.123,
+    "birthdate": "1990-07-28",
+    "married": true
   },
   {
     "name": "david",
@@ -23,8 +23,8 @@
   {
     "name": "linda",
     "height": 155,
-    "weight": 50,
+    "weight": 50.6,
     "birthdate": "1995-08-30",
-    "married": false
+    "married": true
   }
 ]
