@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <form action="{{action}}" method="POST" class="form-add">
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="insert your name"
+        value="{{name}}"
+        required
+      />
+
+      <input
+        type="number"
+        name="height"
+        id="height"
+        placeholder="insert your height"
+        value="{{height}}"
+        required
+      />
+
+      <input
+        type="number"
+        step="0.01"
+        name="weight"
+        id="weight"
+        placeholder="insert your weight"
+        value="{{weight}}"
+        required
+      />
+
+      <input
+        type="date"
+        name="birthdate"
+        id="birthdate"
+        value="{{birthdate}}"
+        required
+      />
+
+      <select name="married" id="married" required>
+        <option value="" disabled selected>have you married ?</option>
+        <option value="true" {{selectedTrue}}>True</option>
+        <option value="false" {{selectedFalse}}>False</option>
+      </select>
+
+      <button type="submit" class="btn-save">Save</button>
+      <a href="/" class="btn-cancel">Cancel</a>
+    </form>
+  </body>
+</html>
